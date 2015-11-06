@@ -24,5 +24,5 @@ TO RUN tweets_cleaned.py: python3 src/tweets_cleaned.py INPUT_FILE_PATH OUTPUT_F
 
 TO RUN average_degree.py: python3 src/average_degree.py INPUT_FILE_PATH OUTPUT_FILE_PATH
 
-Note - Please comment/remove print statement in both scripts (used to display the number of tweets processed) to slightly improve speed of execution. tweets_cleaned.py takes <30 seconds and average_degree.py takes between 20-30 minutes to run with the sample input tweets.txt.
+Note - Please comment/remove print statement in both scripts (used to display the number of tweets processed) to slightly improve speed of execution. tweets_cleaned.py takes less than 15 seconds and average_degree.py takes between 20-30 minutes to run with the sample input tweets.txt.
 
